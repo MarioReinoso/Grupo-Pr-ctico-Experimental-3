@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-
+//Sentencias SQL
 public class PersonaDAO implements CRUD{
     Conexion cn=new Conexion();
     Connection con;
