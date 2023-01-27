@@ -27,7 +27,7 @@
                 </div>
                 <input class="btn btn-success btn-block" type="submit" name="accion" value="Ingresar al sistema">
                 <a class="btn btn-primary btn-block" href="Controlador?accion=map">Olvidó su contraseña?</a> 
-                <a class="btn btn-danger btn-block" href="Controlador?accion=map">Mapa Georeferenciado</a>
+                
             </form>   
             
         </div>          
