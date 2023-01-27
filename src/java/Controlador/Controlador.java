@@ -108,17 +108,46 @@ public class Controlador extends HttpServlet {
         }
         else if(action.equalsIgnoreCase("Actualizar")){
             id=Integer.parseInt(request.getParameter("txtid"));
+           // String dni=request.getParameter("txtDni");
+           // String nom=request.getParameter("txtNom");
+           // String ape=request.getParameter("txtApe");
+           // String cel=request.getParameter("txtCel");
+           // String dia=request.getParameter("txtDia");
+            
+            String ape=request.getParameter("txtApe");
             String dni=request.getParameter("txtDni");
             String nom=request.getParameter("txtNom");
-            String ape=request.getParameter("txtApe");
             String cel=request.getParameter("txtCel");
+            String ema=request.getParameter("txtEma");
+            String di1=request.getParameter("txtDi1");
+            String di2=request.getParameter("txtDi2");
+            String par=request.getParameter("txtPar");
+            String can=request.getParameter("txtCan");
+            String pro=request.getParameter("txtPro");
             String dia=request.getParameter("txtDia");
+            String exa=request.getParameter("txtExa");
+            String ana=request.getParameter("txtAna");
+            String com=request.getParameter("txtCom");
+            String fe1=request.getParameter("txtFe1");
+            String fe2=request.getParameter("txtFe2");
+            
             p.setId(id);
             p.setDni(dni);
             p.setNom(nom);
             p.setApe(ape);
             p.setCel(cel);
+            p.setEma(ema);
+            p.setDi1(di1);
+            p.setDi2(di2);
+            p.setPar(par);
+            p.setCan(can);
+            p.setPro(pro);
             p.setDia(dia);
+            p.setExa(exa);
+            p.setAna(ana);
+            p.setCom(com);
+            p.setFe1(fe1);
+            p.setFe2(fe2);
             dao.edit(p);
             acceso=listar;
         }

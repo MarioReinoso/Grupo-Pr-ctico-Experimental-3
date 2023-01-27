@@ -22,7 +22,7 @@
                     <input class="form-control" type="text" name="txtnom" placeholder="Ingrese Nombres">
                 </div> 
                 <div class="form-group">
-                     <label>Password:</label>
+                     <label>Contraseña:</label>
                     <input class="form-control" type="email" name="txtcorreo" placeholder="ejemplo@utpl.edu.">
                 </div>
                 <input class="btn btn-success btn-block" type="submit" name="accion" value="Ingresar al sistema">

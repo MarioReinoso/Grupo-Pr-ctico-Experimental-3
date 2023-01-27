@@ -85,11 +85,12 @@ public class PersonaDAO implements CRUD{
 
     @Override
     public boolean add(Persona per) {
-       String sql="insert into domicilio(CI, Nombres, Celular, Apellidos, Diagnostico,Direcion1,Direccion2)values('"+per.getDni()+"','"+per.getNom()+"','"+per.getCel()+ "','"+per.getApe()+"','"+per.getDia()+"','"+per.getDi1()+"',,'"+per.getDi2()+"')";
+       String sql="insert into domicilio(CI, Nombres, Celular, Apellidos, Diagnostico,Direcion1,Direccion2)values('"+per.getDni()+"','"+per.getNom()+"','"+per.getCel()+ "','"+per.getApe()+"','"+per.getDia()+"','"+per.getDi1()+"','"+per.getDi2()+"')";
         try { 
             con=cn.getConnection();
             ps=con.prepareStatement(sql);
             ps.executeUpdate();
+            
         } catch (Exception e) {
         }
        return false;
