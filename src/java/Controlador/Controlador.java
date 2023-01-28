@@ -80,6 +80,7 @@ public class Controlador extends HttpServlet {
             String com=request.getParameter("txtCom");
             String fe1=request.getParameter("txtFe1");
             String fe2=request.getParameter("txtFe2");
+            //
             
             
             p.setDni(dni);
