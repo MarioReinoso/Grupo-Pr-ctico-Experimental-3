@@ -5,10 +5,7 @@
  */
 package Modelo;
 
-/**
- *
- * @author Pablo Pesántez
- */
+
 public class Usuarios {
     int id_usuario;
    

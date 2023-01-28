@@ -80,6 +80,7 @@ public class Controlador extends HttpServlet {
             String com=request.getParameter("txtCom");
             String fe1=request.getParameter("txtFe1");
             String fe2=request.getParameter("txtFe2");
+            //
             
             
             p.setDni(dni);
@@ -108,11 +109,7 @@ public class Controlador extends HttpServlet {
         }
         else if(action.equalsIgnoreCase("Actualizar")){
             id=Integer.parseInt(request.getParameter("txtid"));
-           // String dni=request.getParameter("txtDni");
-           // String nom=request.getParameter("txtNom");
-           // String ape=request.getParameter("txtApe");
-           // String cel=request.getParameter("txtCel");
-           // String dia=request.getParameter("txtDia");
+          //Actualizar Información
             
             String ape=request.getParameter("txtApe");
             String dni=request.getParameter("txtDni");
